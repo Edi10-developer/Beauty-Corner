@@ -890,11 +890,13 @@ footer{
 	}
 	
 	.slicknav_menu{
+		display: inline;
+		width: 110%;
 		margin-top: 80px;
 		margin-left: -15px;
 		margin-right: -15px;
 		padding: 0;
-		background: none !important;
+		background-color: rgba(0, 0, 0, 0.24) !important;
 	}
 
 	.slicknav_menu ul{
