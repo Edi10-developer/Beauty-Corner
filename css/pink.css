@@ -78,7 +78,6 @@ a:focus{
 .navbar{
 	margin-bottom: 0;
 	top: -80px;
-
 }
 
 .navbar-brand{
@@ -854,6 +853,7 @@ footer{
 /* Mobile Layout */
 @media only screen and (max-width: 767px){
 
+
 	#logo{
 		display: block !important;
 		margin-bottom:30px !important;
@@ -876,6 +876,7 @@ footer{
 	
 	.navbar{
 		padding: 2px 0;
+		top: 0;
 		min-height: auto;
 	}
 	
