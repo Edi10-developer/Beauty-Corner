@@ -77,19 +77,25 @@ a:focus{
 
 .navbar{
 	margin-bottom: 0;
-	top: -8px;
-	height: 80px;
+	top: -80px;
+
 }
 
 .navbar-brand{
 	padding: 1px 15px;
-	margin-top: -55px;
 }
 
 .navbar-brand img{
 	filter: brightness(0) invert(1);
 	transition: all 0.3s;
-	width: 150px;
+}
+
+#logo{
+	position: fixed;
+	width: 15rem;
+	height: 15rem;
+	margin-top: -5rem;
+	margin-left: 3%;
 }
 
 .navbar-brand h1{
@@ -795,11 +801,11 @@ footer{
 }
 
 @media only screen and (max-width: 991px) {
-	
-	.navbar-brand img{
-		max-height: 44px;
+	#logo{
+		margin-left: -9%;
+		margin-right: -12%;
 	}
-	
+
 	.navbar-default .navbar-nav>li>a{
 		font-size: 13px;
 		padding: 15px 5px 10px;		
@@ -827,14 +833,24 @@ footer{
 	}
 	
 }
-	
+@media only screen and (max-width: 860px) {
+	#logo{
+		margin-left: -5%;
+	}
+}
 
+	
 /* Mobile Layout */
 @media only screen and (max-width: 767px){
+
+	.navbar-toggle{
+		position: fixed;
+		top: 10px;
+		right: 10px !important;
+	}
 	
 	#responsive-menu{
-		display: block;
-		
+		display: block;	
 	}
 	
 	.navbar-brand img{
