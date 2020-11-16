@@ -159,7 +159,7 @@ a:focus{
 
 .btn-custom, .btn-contact{
 	display: inline-block;
-	background: #ffb0d5;
+	background: #fda9cf;
 	color: #fff;
 	text-transform: uppercase;
 	letter-spacing: 0.12em;
@@ -279,7 +279,7 @@ a:focus{
 	height: 1px;
 	bottom: 14px;
 	/*background: #fecae2;*/
-	background: #ffcae2;
+	background: #ffbdd9;
 	left: -20px;
 }
 
@@ -410,12 +410,12 @@ a:focus{
 .whatdoyou-body .btn-custom{
 	margin-top: 10px;
 	margin-bottom: 10px;
-	background: #282828;
-	color: #fecae2;
+	background: #fda9cf;
+	color: white;
 }
 
-.whatdoyou-body .btn-custom:hover{
-	background: #f895c3;
+.whatdoyou-body .btn-custom:hover, .btn-contact:hover{
+	background:  #eb2783;
 	color: #fff;
 }
 
@@ -733,8 +733,9 @@ a:focus{
 }
 
 footer{
-	background: #282828;
-	padding: 60px 0;
+	background: #000000;
+	padding: 40px 0;
+	
 }
 
 .footer-logo{
@@ -768,18 +769,20 @@ footer{
 }
 
 .footer-social a:hover{
-	background: #fff;
-	color: #282828;
+	background: #eb2783;
+	color: #dadada;
 }
 
 .footer-info{
-	
+	margin-bottom: -40px;
+	margin-top: 30px;
 }
 
 .footer-info p{
 	color: #fff;
 	letter-spacing: 0.02em;
 	font-size: 14px;
+
 }
 
 .footer-info a{
@@ -787,11 +790,11 @@ footer{
 }
 
 .footer-info a:hover{
-	color: #fecae2;
+	color:  #eb2783;
 }
 	
 .footer-menu{
-	text-align: right;
+	text-align: center;
 }
 
 .footer-menu ul{
@@ -804,16 +807,17 @@ footer{
 }
 
 .footer-menu ul li a{
+	font-size: 12px;
 	display: block;
 	padding: 0 10px;
 	color: #fff;
-	font-size: 14px;
 	letter-spacing: 0.02em;
-	text-transform: uppercase;
+	text-transform: lowercase;
 }
 
 .footer-menu ul li a:hover{
-	color: #fecae2;
+	color: #eb2783;
+	text-decoration: underline;
 }
 
 /****************************************
@@ -1122,7 +1126,7 @@ figure{
         Calling Button
 *********************************/
 #calling_button{
-    color:black;
+	float: left;
 	font-weight:bold;
 	color: white;
     animation:myanimation 3s infinite ;
@@ -1130,9 +1134,9 @@ figure{
 
 @keyframes myanimation{
     0%{background-color:red;}
-    25%{background-color:yellow;}
+    25%{background-color:rgb(255, 69, 56);}
     50%{background-color:green;}
-    75%{background-color:rgb(255, 163, 163);}
-    100%{background-color:rgb(0, 183, 255);}
+    75%{background-color:rgb(37, 231, 111);}
+    100%{background-color:rgb(0, 140, 255);}
     
   
