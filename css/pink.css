@@ -166,7 +166,8 @@ a:focus{
 	font-size: 15px;
 	padding: 14px 40px;
 	font-weight: 500;
-	min-width: 200px;
+	width: 60px;
+	margin: 10px auto;
 	text-align: center;
 	transition: all 0.4s;
 	border-radius: 40px;
@@ -199,15 +200,19 @@ a:focus{
 /*****      Slider area css     *****/
 /************************************/
 
-.banner{
+.banner, .banner_terms{
 	position: relative;
 	top: 0px;
 	left: 0;
 	width: 100%;
-	height: 120vh;
+	height: 100vh;
 	background: url(../images/bg_1.jpg) no-repeat center center ;
 	background-size: cover;
 	padding: 100px 0 160px;
+}
+
+.banner_terms{
+	background: url(../images/bg_2.jpg) no-repeat center center !important;
 }
 
 .banner:after{
@@ -283,9 +288,6 @@ a:focus{
 	padding: 100px 0;
 }
 
-.about-desc{
-	
-}
 
 .about-desc h2{
 	font-size: 35px;
@@ -468,11 +470,13 @@ a:focus{
 
 .membership .main-title h2{
 	color: #fff;
+	margin-top: 80px;;
 }
 
 .membership-box{
 	background: #fff;
-	padding: 20px;
+	padding: 15px;
+	min-height: 710px;
 }
 
 .membership-header{
@@ -502,7 +506,7 @@ a:focus{
 }
 
 .membership-header h4{
-	font-size: 30px;
+	font-size:26px;
 	color: #000;
 	font-weight: 600;
 }
@@ -524,7 +528,7 @@ a:focus{
 }
 
 .membership-body ul li{
-	font-size: 16px;
+	font-size: 14px;
 	color: #000000;
 	text-transform: uppercase;
 	list-style: none;
@@ -545,11 +549,14 @@ a:focus{
 }
 
 .membership-footer .btn-custom{
+	display: block;
+	position: relative;
 	padding: 16px;
 	border-radius: 0;
 	display: block;
 	margin-top: 16px;
 	text-align: center;
+	margin-bottom: 10px !important;
 }
 
 .ourteam{
@@ -1065,4 +1072,22 @@ footer{
 	.gallery-info p{
 		font-size: 14px;
 	}
+}
+
+
+/*
+price
+*/
+.price_span{
+	display: block;
+	color:rgb(243, 138, 156);
+	float: right;
+}
+
+.price_p{
+	font-size: 8px; 
+	color: rgb(250, 118, 140); 
+	margin-left: 35px;
+	font-weight: 900;
+	letter-spacing: 1px;
 }
