@@ -16,9 +16,28 @@ $headers = 'From: ' . $_POST["name"] . '<' . $_POST["email"] . '>' . "\r\n" .
     'X-Mailer: PHP/' . phpversion();
 
   //
-  mail( "selimi.edi.1991@gmail.com", $_POST['subject'], $_POST['message'], $headers );
+ 
+  $mail_status = mail( "ronildabeautycorner@gmail.com", $_POST['subject'], $_POST['message'], $headers );
  
   //      ^
   //  Replace with your email 
+ 
+
+  if ($mail_status) { ?>
+    <script language="javascript" type="text/javascript" >
+      alert('Thank you for the message. We will contact you shortly.');
+      window.location = 'index.html';
+    </script>
+    <?php
+  }
+  else { ?>
+      <script language="javascript" type="text/javascript">
+        alert('Message failed. Please, send an email to ronildabeautycorner@gmail.com');
+        window.location = 'index.html';
+      </script>
+      <?php
+}
+header("Location: ./index.html");
+
 }
 ?>
