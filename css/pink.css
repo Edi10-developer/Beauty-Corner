@@ -1111,3 +1111,9 @@ price
 	font-weight: 900;
 	letter-spacing: 1px;
 }
+
+figure{
+	-webkit-box-shadow: 15px 12px 22px -9px rgba(243, 138, 156, 0.31);
+	-moz-box-shadow:    15px 12px 22px -9px rgba(243, 138, 156, 0.31);
+	box-shadow:         15px 12px 22px -9px rgba(243, 138, 156, 0.31);
+}
