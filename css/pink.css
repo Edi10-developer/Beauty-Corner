@@ -320,7 +320,7 @@ a:focus{
 }
 
 .about-image{
-	margin-top: 120px;
+	margin-top: 120px !important;
 	width:300px;
 	margin: -40px 30px 0 50px;
 	border-radius: 50%; 
@@ -477,6 +477,7 @@ a:focus{
 .membership{
 	background: rgba(255, 192, 203, 1);
 	padding: 100px 0;
+	width: 100%;
 }
 
 .membership .main-title h2{
@@ -879,7 +880,10 @@ footer{
 	
 /* Mobile Layout */
 @media only screen and (max-width: 767px){
-
+	#calling_button{
+		margin-top: 20px;
+	}
+	
 	#logo{
 		display: block !important;
 		margin-bottom:-10px !important;
@@ -1126,7 +1130,7 @@ figure{
         Calling Button
 *********************************/
 #calling_button{
-	float: left;
+	float: center;
 	font-weight:bold;
 	color: white;
     animation:myanimation 3s infinite ;
