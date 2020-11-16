@@ -157,7 +157,7 @@ a:focus{
 	-moz-transform: scale(1) !important;
 }
 
-.btn-custom{
+.btn-custom, .btn-contact{
 	display: inline-block;
 	background: #ffb0d5;
 	color: #fff;
@@ -166,11 +166,17 @@ a:focus{
 	font-size: 15px;
 	padding: 14px 40px;
 	font-weight: 500;
-	width: 60px;
+	min-width: 100px;
 	margin: 10px auto;
 	text-align: center;
 	transition: all 0.4s;
 	border-radius: 40px;
+}
+
+.btn-contact{
+	width: 200px !important;
+	margin: 10px auto !important;
+	text-align: center;
 }
 
 .btn-custom:hover{
