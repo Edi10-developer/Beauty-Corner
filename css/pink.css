@@ -646,6 +646,15 @@ a:focus{
 
 .gallery-box figure{
 	margin-bottom: -1px;
+	overflow: hidden !important;
+	height: 32rem;
+	width: 30rem;
+	margin: 0px;
+}
+
+.gallery-box figure img{
+	min-width: 100% !important;
+	min-height: 100% !important;
 }
 
 .gallery-overlay{
@@ -840,12 +849,18 @@ footer{
 ****************************************/
 
 @media only screen and (max-width: 1200px) {
+
 	.btn-custom{
 		min-width: auto;
 	}
 }
 
 @media only screen and (max-width: 991px) {
+	.team-single h3{
+		font-size: 17px;
+		margin-bottom: 20px;
+		margin-top: 10px !important;
+	}
 	#logo{
 		margin-left: -9%;
 		margin-right: -12%;
