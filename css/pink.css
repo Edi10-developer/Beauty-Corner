@@ -608,12 +608,18 @@ a:focus{
 	min-width: 100%;
 	min-height: 100%;
 }
+
+.team-single h2{
+	color: palevioletred;
+	font-family: 'Courier New', Courier, monospace;
+}
+
 .team-single h3{
 	font-size: 24px;
 	color: #282828;
 	font-weight: 500;
 	text-transform: uppercase;
-	margin-bottom: 6px;
+	margin-bottom: 26px;
 }
 
 .team-single p{
@@ -1085,6 +1091,7 @@ footer{
 	.team-single{
 		margin-bottom: 40px;
 	}
+	
 	
 	.contact-box{
 		padding: 30px 20px;
