@@ -101,7 +101,7 @@ a:focus{
 	width: 15rem;
 	height: 15rem;
 	margin-top: -5rem;
-	margin-left: 3%;
+	margin-left: 3.4% !important;
 }
 
 .navbar-brand h1{
@@ -136,12 +136,14 @@ a:focus{
 	-moz-transition: all 0.4s;
 }
 
+
 .navbar-default .navbar-nav>li>a:hover{
-	color: #fff;
+	color: rgba(235, 39, 131, .9);
+	text-decoration: underline;
 }
 
 .navbar-default .navbar-nav>li>a:focus{
-	color: #fff;
+	color:rgba(235, 39, 131, .9);
 }
 
 .navbar-default .navbar-nav>li>a{
@@ -155,7 +157,8 @@ a:focus{
 
 .active a{
 	background: none !important;
-	color: #f55b5b !important;
+	color: #eb2783 !important;
+	font-weight: 500;
 }
 
 .navbar-default .active a:after{
@@ -197,11 +200,11 @@ a:focus{
 }
 
 .navbar-default .navbar-toggle .icon-bar{
-	background: #fff;
+	background-color:  rgba(235, 39, 131, .5);
 }
 
 .navbar-default .navbar-toggle:hover{
-	background: none;
+	background-color:  rgba(235, 39, 131, .9);
 }
 
 .sticky-header{
@@ -928,22 +931,27 @@ footer{
 		text-align: center;	
 	}
 	
-	#responsive-menu ul li{
-		color: red;	
-	}
-	
 	.navbar{
+		width: 110%;
+		margin-left: -15px;
+		margin-right: -20px !important;
 		padding: 2px 0;
+		padding-bottom: 15px;
 		top: 0;
 		height: 50px;
+	}
+
+	html, body {
+		max-width: 100%;
+		overflow-x: hidden;
 	}
 
 	
 	.navbar-toggle{
 		position: fixed;
 		top: 2px !important;
-		right: 2px !important;
-		background-color: rgba(0, 0, 0, 0.24);
+		left: 85% !important;
+		background-color:  rgba(235, 39, 131, .4);
 	}
 	
 	.navbar-header{
@@ -958,7 +966,7 @@ footer{
 	
 	.slicknav_menu{
 		display: inline;
-		width: 110%;
+		width: 110% !important;
 		margin-top: 47px;
 		margin-left: -15px;
 		margin-right: -15px;
@@ -974,11 +982,6 @@ footer{
 		padding: 0 10px;
 	}
 
-	.slicknav_menu .active a{
-		color: #24292f;
-		background: none !important;
-	}
-	
 	.slicknav_menu a{
 		color: #fff;
 		padding-top: 6px;
@@ -993,11 +996,13 @@ footer{
 	
 	.slicknav_nav .slicknav_row:hover,
 	.slicknav_nav a:hover{
-		color: #24292f;
+		color: rgba(235, 39, 131, .9);
+		text-decoration: underline;
 	}
 	
 	.slicknav_menu  .active a{
-		color: #24292f !important;
+		color: white !important;
+		font-weight: 500;
 	}
 	
 	.slicknav_btn{
