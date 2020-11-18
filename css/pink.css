@@ -655,6 +655,7 @@ a:focus{
 	height: 32rem;
 	width: 34rem;
 	margin: 0px;
+	border: 1px solid black;
 }
 
 .gallery-box figure img{
@@ -1130,6 +1131,11 @@ footer{
 	.footer-menu ul li a{
 		font-size: 12px;
 	}
+
+	.gallery-box figure img{
+		margin-left: -70px;
+	}
+	
 
 	.gallery-info h3{
 		font-size: 18px;
