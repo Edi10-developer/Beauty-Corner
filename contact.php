@@ -11,13 +11,14 @@ if ( isset($_POST['email']) && isset($_POST['name']) && isset($_POST['subject'])
     }
   }
 
+$password = "password";
 $headers = 'From: ' . $_POST["name"] . '<' . $_POST["email"] . '>' . "\r\n" .
     'Reply-To: ' . $_POST["email"] . "\r\n" .
     'X-Mailer: PHP/' . phpversion();
 
   //
  
-  $mail_status = mail( "ronildabeautycorner@gmail.com", $_POST['subject'], $_POST['message'], $headers );
+  $mail_status = mail( "service@ronildabeautycorner.com", $_POST['subject'], $_POST['message'], $headers );
  
   //      ^
   //  Replace with your email 

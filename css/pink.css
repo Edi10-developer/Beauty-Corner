@@ -649,7 +649,7 @@ a:focus{
 
 .gallery-box{
 	position: relative;
-	overflow: hidden;
+	overflow: hidden !important;
 	min-height: 320px !important;
 	max-height: 320px !important;
 	margin: -10px;
